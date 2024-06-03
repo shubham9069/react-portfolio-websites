@@ -23,6 +23,12 @@
   overflow: hidden;
   transform: rotate(10deg);
   transition: var(--transition);
+  width: 100%;
+  
+}
+.about__me-image > img{
+  width: inherit;
+  
 }
 
 .about__me-image:hover {

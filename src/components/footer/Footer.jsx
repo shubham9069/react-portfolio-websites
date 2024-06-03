@@ -1,6 +1,6 @@
 import React from "react";
 import "./footer.css";
-import { BsLinkedin } from "react-icons/bs";
+import { BsLinkedin, BsTwitter } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
 import { BsYoutube } from "react-icons/bs";
 
@@ -9,7 +9,7 @@ const Footer = () => {
     <footer>
       {/* eslint-disable-next-line */}
       <a href="#" className="footer__logo">
-        Ademir Alijagic
+        Shubham Kausik
       </a>
       <ul className="permalinks">
         <li>
@@ -20,31 +20,34 @@ const Footer = () => {
           <a href="#about">About</a>
         </li>
         <li>
-          <a href="#experience">Experience</a>
+          <a href="#experience">My Skill</a>
         </li>
         <li>
-          <a href="#portfolio">Portfolio</a>
+          <a href="#portfolio">Project</a>
         </li>
         <li>
-          <a href="#testimonials">Testimonials</a>
+          <a href="#testimonials">Experience</a>
         </li>
         <li>
           <a href="#contact">Contact</a>
         </li>
       </ul>
       <div className="footer__socials">
-        <a href="https://www.youtube.com/@howtobecomeadeveloper">
-          <BsYoutube />
-        </a>
-        <a href="https://www.linkedin.com/in/ademiralijagic/">
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/shubham-kaushik-106775213/"
+        >
           <BsLinkedin />
         </a>
-        <a href="https://github.com/Ade-mir">
+        <a target="_blank" href="https://github.com/shubham9069">
           <FaGithub />
+        </a>
+        <a target="_blank" href="https://x.com/Shubhamkhaushik">
+          <BsTwitter />
         </a>
       </div>
       <div className="footer__copyright">
-        <small>&copy; Ademir Alijagic. All rights reserved</small>
+        <small>&copy; Shubham Kaushik. All rights reserved</small>
       </div>
     </footer>
   );

@@ -18,10 +18,11 @@
   --color-primary-variant: #ffffff65;
   --color-white: #fff;
   --color-light: rgba(255, 255, 255, 0.6);
+  --light-grey: rgb(207, 206, 206);
 
   --transition: all 400ms ease;
 
-  --container-width-lg: 75%;
+  --container-width-lg: 85%;
   --container-width-md: 86%;
   --container-width-sm: 90%;
 }

@@ -9,12 +9,14 @@ const header = () => {
     <header>
       <div className="container header__container">
         <h5>Hello I'm</h5>
-        <h1>Ademir Alijagic</h1>
-        <h5 className="text-light">Frontend Developer</h5>
+        <h1>Shubham Kaushik</h1>
+        <h5 className="header__text">
+          Software Engineer #MERN | System design patterns ✍️ | RAG,Langchain/LLM #GenAiHackathon✍️ <br/>AI-Powered SaaS Developer
+        </h5>
         <CTA />
         <HeaderSocials />
         <div className="ademir">
-          <img src={header_picture} alt="Ademir Alijagic" />
+          <img src={header_picture} alt="Shubham Kaushik" />
         </div>
         <a href="#contact" className="scroll__down">
           Scroll Down

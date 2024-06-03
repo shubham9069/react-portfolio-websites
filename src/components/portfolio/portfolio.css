@@ -3,6 +3,27 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 2.5rem;
 }
+.selection_tab{
+  display: flex;
+  gap: 1rem ;
+  display: flex;
+  width: min-content ;
+  border-radius: 8px;
+  margin: 1rem auto 2rem auto ;
+  background-color: var(--color-bg-variant);
+  padding: 0.4rem;
+}
+.selection_tab h4{
+    padding: 0.5rem 1rem;
+    cursor: pointer;border-radius: 8px;
+
+}
+.selection_tab >.activate{
+    background-color: white;
+    color: black;
+
+}
+
 
 .portfolio__item {
   background: var(--color-bg-variant);
@@ -21,15 +42,42 @@
   border-radius: 1.5rem;
   overflow: hidden;
 }
+.portfolio__item-image  img,video{
+     display: block;
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+    background-color: white;
+    
+}
 
 .portfolio__item > h3 {
-  margin: 1.2rem 0 2rem;
+  margin: 1.2rem 0 0.5rem;
 }
 
 .portfolio__item-cta {
   display: flex;
   gap: 1rem;
   margin-bottom: 1rem;
+}
+.project_tags{
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+.project_tags span{
+ background-color: var(--color-primary-variant);
+ font-size: 11px;
+ padding:0.1rem 0.5rem;
+ border-radius: 40px;
+ min-width: none;
+
+}
+.project_desc{
+  font-size: 13px;
+  color: var(--color-primary-variant);
+  margin: 1rem 0;
 }
 
 /* MEDIA QUERIES (MEDIUM DEVICES) */

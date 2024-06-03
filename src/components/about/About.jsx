@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import profile_picture from "../../assets/profile3.png";
+import profile_picture from "../../assets/profile2.jpeg";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
@@ -13,7 +13,7 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={profile_picture} alt="About Ademir image" />
+            <img src={profile_picture} alt="About profile image" />
           </div>
         </div>
         <div className="about__content">
@@ -21,42 +21,40 @@ const About = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>
-                2+ Years Dev XP
-              </small> <br />
-              <small>
-                14,000+ Subscribers
-              </small>
+              <small>1.5+ Years</small> <br />
+              <small>200+ LeetCode</small>
             </article>
             <article className="about__card">
               <FiUsers className="about__icon" />
               <h5>Education</h5>
               <small>
-                B.Sc. Mechanical Engineering
+                M.C.A. DPG Degree College
                 <br />
-                M.Sc. Innovation &
-                Entrepreneurship
+                B.C.A. Dronacharya Govt College
               </small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
               <small>
-                40+ Completed
+                8+ FreeLancing
                 <br />
-                and Counting
+                3+ Saas Tools
               </small>
             </article>
           </div>
           <p>
-            I'm a frontend developer currently working with the GUI of FEED, a
-            large scale Product Information Management system. My primary tech stack is Angular 17, Material Design, TypeScript, Node, and LESS / SASS for styling. Git, Jira and IntelliJ is used for team collaboration and deployment.
-            My day-to-day consists of a daily stand-up and biweekly sprints. My core responsibility centers on creating and maintaining components for new features that interact with our large databases as
-            well as creating and designing an effective user experience.
+            Experience is valuable, but so is potential. While I may not have as
+            much experience as other candidates, I offer enthusiasm,
+            adaptability, and a strong desire to learn. Give me the chance to
+            prove myself, and you won't be disappointed.
           </p>
           <p>
-            When I'm not coding at my job, I teach coding on my YouTube channel with
-            14,000+ subscribers, called <a href="https://www.youtube.com/@howtobecomeadeveloper">How To Become A Developer</a>, which has been featured by freeCodeCamp.org. I teach everything from HTML, CSS, JavaScript, to libraries like React, and CSS frameworks like Tailwind CSS.
+            I bring over 1.5+ years of experience in the world of software
+            development, specializing in crafting robust architectures from
+            conceptualization to detailed implementation for distributed
+            systems. I've successfully delivered scalable solutions that stand
+            the test of real-world challenges and enterprise application
           </p>
           {/* <p>
             As a problem solver at heart I have a background in Engineering,
