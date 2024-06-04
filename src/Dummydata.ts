@@ -15,7 +15,7 @@ export const data: any = {
     {
       id: 2,
       image: IMG6,
-      title: "Remote execution engine (upcomming)",
+      title: "Remote execution engine (upcoming)",
       article: "#",
       description: "this project define my core knowledge in Backend",
       demo: "#",
