@@ -7,7 +7,7 @@ const Experience = () => {
     <section id="experience">
       <h5>Check out</h5>
       <h2>My skills</h2>
-      <div className="container experience__container">
+      <div className="experience__container">
         <div className="experience__frontend">
           <h3>Frontend Development</h3>
           <div className="experience__content">
@@ -147,6 +147,15 @@ const Experience = () => {
                 <h4>DSA</h4>
                 <small className="text-light">200+ Leetcode</small>
               </div>
+             
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Java</h4>
+                {/* <small className="text-light">200+ Leetcode</small> */}
+              </div>
+             
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
@@ -172,13 +181,12 @@ const Experience = () => {
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>Azure/AWS VM config</h4>
+                <h4>Azure/AWS</h4>
                 <small className="text-light">beginner</small>
               </div>
             </article>
 
-            <article className="experience__details"></article>
-            <article className="experience__details">
+             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>REST API/ Event-based </h4>

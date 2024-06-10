@@ -40,7 +40,7 @@ header {
   background: var(--color-primary);
 }
 .header__text{
-  max-width: 695px;
+  max-width: 800px;
 margin: 0 auto;
 font-size: 14px;
 color: var(--light-grey);

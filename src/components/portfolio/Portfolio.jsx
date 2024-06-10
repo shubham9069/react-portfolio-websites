@@ -41,11 +41,19 @@ const Portfolio = () => {
             <article key={project.id} className="portfolio__item">
               <div className="portfolio__item-image">
                 {project.hasOwnProperty("video") ? (
-                  <video autoPlay muted loop>
+                  <video
+                    controls
+                    preload="none"
+                    poster={project.image}
+                  >
                     <source src={project.video} />
                   </video>
                 ) : (
-                  <img src={project?.image} alt={project.title} />
+                  <img
+                    src={project?.image}
+                    alt={project.title}
+                    loading="lazy"
+                  />
                 )}
               </div>
               <h3>{project.title}</h3>

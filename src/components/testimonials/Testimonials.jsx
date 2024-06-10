@@ -23,7 +23,7 @@ const Testimonials = () => {
             >
               {" "}
               <div className="coworker-avatar">
-                <img src={avatar} alt="Coworker" />
+                <img src={avatar} alt="Coworker" loading="lazy" />
               </div>
               <h5 className="coworker__name">{name}</h5>
               <div
