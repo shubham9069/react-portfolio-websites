@@ -91,7 +91,7 @@ export const data: any = {
         " SYM*** (Enterprise Level) under Top 25 Artificial Intelligence Companies of 2024",
       article: "https://github.com/shubham9069/LLM_AI_DOCS4.git",
       description:
-        "I cannot share further details of this project its confidential we can discuss ... For specific industries to optimize applications for every use case. Vertical-specific skills, agents, predictive models, and knowledge graphs mean SymphonyAI can quickly release vertical predictive and generative AI applications customized to meet the unique needs of workers in each industry. ",
+        "I cannot share further details of this project its confidential we can discuss ... For specific industries to optimize applications for every use case. Vertical-specific skills, agents, predictive models, and knowledge graphs can quickly release vertical predictive and generative AI applications customized to meet the unique needs of workers in each industry. ",
       demo: "https://github.com/shubham9069/LLM_AI_DOCS4.git",
       stack: [
         "Angular.js",
