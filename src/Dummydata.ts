@@ -6,7 +6,7 @@ import IMG3 from "./assets/logistick-project.png";
 import IMG4 from "./assets/genai-project.png";
 import IMG2 from "./assets/couchette-project.png";
 import IMG5 from "./assets/saas-project.png";
-import IMG6 from "./assets/remote-execution.png";
+import IMG6 from "./assets/deployment-hub.png";
 import VIDEO2 from "./assets/war94-project.mp4";
 import VIDEO3 from "./assets/shadow-ui-project.mp4";
 import POSTER02 from "./assets/war94-image.png";
@@ -24,6 +24,7 @@ export const data: any = {
         " developed a new project similar to Vercel that enables one-click deployment of applications. This platform stands out by allowing users to deploy both Python and Node.js and React.js projects effortlessly.eliminates the need for setting up and building new machines. With this platform, developers can deploy their code into production with just one click, simplifying the deployment process and accelerating the time to market. ",
       demo: "https://github.com/shubham9069/DEPLOYMENT_HUB",
       stack: [
+        "Next.js",
         "Node js",
         "Docker",
         "MongoDB",
@@ -55,6 +56,26 @@ export const data: any = {
         "Container Component Pattern",
       ],
     },
+    {
+      id: 5,
+      image: POSTER02,
+      video: VIDEO2,
+      title: "War94 BGMI Tournament ",
+      article: "https://github.com/shubham9069/WAR94_DEV_SETUP",
+      description:
+        "WAR94 - BGMI Tournaments is an Platfrom for all those who want to participate in tournaments for games like Battle Royal.Like Pubg, Fortnite, Call of duty.",
+      demo: "https://war-94-dev-setup.vercel.app/",
+      stack: [
+        "React.js",
+        "Component-Pattern",
+        "ContextApi",
+        "Node/Express",
+        "Socket.io",
+        "MYSQL",
+        "ECharts",
+        "AWS EC2",
+      ],
+    },
 
     {
       id: 4,
@@ -84,26 +105,6 @@ export const data: any = {
     },
   ],
   company: [
-    {
-      id: 1,
-      image: IMG4,
-      title:
-        " SYM*** (Enterprise Level) under Top 25 Artificial Intelligence Companies of 2024",
-      article: "https://github.com/shubham9069/LLM_AI_DOCS4.git",
-      description:
-        "I cannot share further details of this project its confidential we can discuss ... For specific industries to optimize applications for every use case. Vertical-specific skills, agents, predictive models, and knowledge graphs can quickly release vertical predictive and generative AI applications customized to meet the unique needs of workers in each industry. ",
-      demo: "https://github.com/shubham9069/LLM_AI_DOCS4.git",
-      stack: [
-        "Angular.js",
-        "rjsx",
-        " Container component pattern ",
-        "Pyhton",
-        "Flask",
-        "Langchain/LLM",
-        "VectorDB (Faisse)",
-        "Ai-model-Train",
-      ],
-    },
     {
       id: 2,
       image: IMG1,
@@ -150,6 +151,26 @@ export const data: any = {
       ],
     },
     {
+      id: 1,
+      image: IMG4,
+      title:
+        " SYM*** (Enterprise Level) under Top 25 Artificial Intelligence Companies of 2024",
+      article: "https://github.com/shubham9069/LLM_AI_DOCS4.git",
+      description:
+        "I cannot share further details of this project its confidential we can discuss ... For specific industries to optimize applications for every use case. Vertical-specific skills, agents, predictive models, and knowledge graphs can quickly release vertical predictive and generative AI applications customized to meet the unique needs of workers in each industry. ",
+      demo: "https://github.com/shubham9069/LLM_AI_DOCS4.git",
+      stack: [
+        "Angular.js",
+        "rjsx",
+        " Container component pattern ",
+        "Pyhton",
+        "Flask",
+        "Langchain/LLM",
+        "VectorDB (Faisse)",
+        "Ai-model-Train",
+      ],
+    },
+    {
       id: 4,
       image: IMG3,
       title: "Logistick estimate ",
@@ -158,28 +179,6 @@ export const data: any = {
         "we are committed to providing our customers with the highest quality logistics services to help them manage their supply chain and transport their goods efficiently and effectively.",
       demo: "https://budgetlogisticspackers.com",
       stack: ["React.js", "PHP", "mySQL", "Redux", "Platform"],
-    },
-  ],
-  contribute: [
-    {
-      id: 5,
-      image: POSTER02,
-      video: VIDEO2,
-      title: "War94 BGMI Tournament ",
-      article: "https://github.com/shubham9069/WAR94_DEV_SETUP",
-      description:
-        "WAR94 - BGMI Tournaments is an Platfrom for all those who want to participate in tournaments for games like Battle Royal.Like Pubg, Fortnite, Call of duty",
-      demo: "https://github.com/shubham9069/WAR94_DEV_SETUP",
-      stack: [
-        "React.js",
-        "Component-Pattern",
-        "ContextApi",
-        "Node/Express",
-        "Socket.io",
-        "MYSQL",
-        "ECharts",
-        "AWS EC2",
-      ],
     },
   ],
 };

@@ -27,12 +27,7 @@ const Portfolio = () => {
         >
           Company
         </h4>
-        <h4
-          className={selection_tab == "contribute" && "activate"}
-          onClick={() => handlesetSelection_tab("contribute")}
-        >
-          Contribute
-        </h4>
+      
       </div>
 
       <div className="container portfolio__container">
